@@ -14,17 +14,17 @@ def make_bold(function):
 
 
 def user_won():
-    return f'<h1 style="color: red">You found me!</h1>' \
+    return f'<h1 style="color: green">You found me!</h1>' \
            '<img src="https://media.giphy.com/media/4T7e4DmcrP9du/giphy.gif" width=500>'
 
 
 def user_low():
-    return f'<h1 style="color: purple">Too low, try again!</h1>' \
+    return f'<h1 style="color: red">Too low, try again!</h1>' \
            '<img src="https://media.giphy.com/media/jD4DwBtqPXRXa/giphy.gif" width=500>'
 
 
 def user_high():
-    return f'<h1 style="color: purple">Too high, try again!</h1>' \
+    return f'<h1 style="color: blue">Too high, try again!</h1>' \
            '<img src="https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif" width=500>'
 
 
